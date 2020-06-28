@@ -9,7 +9,7 @@ package:
   version: {{ version }}
 
 source:
-  git_url: {{ environ.get('FEEDSTOCK_ROOT', '..') }}
+  git_url: {{ environ.get('FEEDSTOCK_ROOT', '../..') }}
 
 build:
   number: {{ build_number }}
